@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# Allow folders/files you want
+!Library Database/
+!Library Database/**
+
+!2314630-WONG JIN XUAN/
+!2314630-WONG JIN XUAN/**
+
+!CreateInsert.txt
+!ERD Diagram.drawio.pdf
+
+# Allow gitignore itself
+!.gitignore
