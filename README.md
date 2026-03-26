@@ -61,4 +61,72 @@ The system was developed with a strong focus on relational database design, inte
 
 CreateInsert.txt
 ERD Diagram.drawio.pdf
-SAT1300RDSC-(Team 1 ...).docx
+```
+
+## My Contribution
+
+My section focuses on:
+
+- Popular books ranking query
+- Staff performance and efficiency query
+- Stored procedure to retrieve member borrow history
+- Stored procedure to add new book titles with copies
+- Trigger for book detail validation
+- Trigger set for automatic book status updates
+- Genre borrowing analytics report
+- Book availability and borrowing duration report
+- Supporting views, indexes, functions, exceptions, and sequences
+
+## Example Database Components
+
+Queries
+Most Borrowed Books (Popular Books Ranking)
+Staff Performance and Efficiency Analysis
+
+
+Stored Procedures
+Get Borrow History for a Member
+Add New Book Title with Copies
+
+
+Triggers
+Manage Book Details Validation
+Automatic Book Status Update
+
+
+Reports
+Most Popular Genres & Authors
+Book Status Analytics: Availability & Borrowing Duration
+
+View
+BookBorrow_View for pre-aggregated book borrowing statistics
+staff_basic_view for staff shift summary and performance analysis
+
+Indexes
+idx_genre_bookid for fast genre-based filtering and ranking
+idx_status_bookcopy for efficient book status and borrowing analysis
+
+Function
+CalculateTotalHoursWorked for computing staff working hours
+CalculateLoanProcessed for tracking staff loan transactions
+
+User-Defined Exceptions
+ISBN uniqueness validation
+Publication year, price, and popularity validation
+Invalid genre and copy count validation
+Duplicate book ID / ISBN handling
+
+Sequence
+book_id_seq for generating unique book IDs
+copy_id_seq for generating unique copy IDs
+
+## How to Use
+
+1. Open Oracle SQL Developer or SQL*Plus.
+2. Run the DDL and insert scripts to create the database
+3. Execute the SQL scripts for queries, procedures, triggers, reports, views, indexes, functions, and sequences.
+4. Test the outputs using the provided prompts and sample calls.
+
+## Notes
+This project was developed as part of an academic assignment for Advanced Database Management.
+
