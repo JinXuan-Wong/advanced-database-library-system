@@ -4,6 +4,9 @@
 # Allow main folder
 !Library Database/
 
+# Allow readme
+!.README.md
+
 # Allow contents inside it
 !Library Database/**
 
