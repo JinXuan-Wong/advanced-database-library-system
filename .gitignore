@@ -5,7 +5,7 @@
 !Library Database/
 
 # Allow readme
-!.README.md
+!README.md
 
 # Allow contents inside it
 !Library Database/**
