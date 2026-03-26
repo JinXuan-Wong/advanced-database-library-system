@@ -1,15 +1,19 @@
 # Ignore everything
 *
 
-# Allow folders/files you want
+# Allow main folder
 !Library Database/
+
+# Allow contents inside it
 !Library Database/**
 
-!2314630-WONG JIN XUAN/
-!2314630-WONG JIN XUAN/**
+# Allow ONLY your folder inside
+Library Database/*
+!Library Database/2314630-WONG JIN XUAN/
 
-!CreateInsert.txt
-!ERD Diagram.drawio.pdf
+# Allow specific files
+!Library Database/CreateInsert.txt
+!Library Database/ERD Diagram.drawio.pdf
 
-# Allow gitignore itself
+# Allow gitignore
 !.gitignore
