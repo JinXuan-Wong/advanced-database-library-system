@@ -80,45 +80,45 @@ My section focuses on:
 ## Example Database Components
 
 Queries
-Most Borrowed Books (Popular Books Ranking)
-Staff Performance and Efficiency Analysis
+- Most Borrowed Books (Popular Books Ranking)
+- Staff Performance and Efficiency Analysis
 
 
 Stored Procedures
-Get Borrow History for a Member
-Add New Book Title with Copies
+- Get Borrow History for a Member
+- Add New Book Title with Copies
 
 
 Triggers
-Manage Book Details Validation
-Automatic Book Status Update
+- Manage Book Details Validation
+- Automatic Book Status Update
 
 
 Reports
-Most Popular Genres & Authors
-Book Status Analytics: Availability & Borrowing Duration
+- Most Popular Genres & Authors
+- Book Status Analytics: Availability & Borrowing Duration
 
 View
-BookBorrow_View for pre-aggregated book borrowing statistics
-staff_basic_view for staff shift summary and performance analysis
+- BookBorrow_View for pre-aggregated book borrowing statistics
+- staff_basic_view for staff shift summary and performance analysis
 
 Indexes
-idx_genre_bookid for fast genre-based filtering and ranking
-idx_status_bookcopy for efficient book status and borrowing analysis
+- idx_genre_bookid for fast genre-based filtering and ranking
+- idx_status_bookcopy for efficient book status and borrowing analysis
 
 Function
-CalculateTotalHoursWorked for computing staff working hours
-CalculateLoanProcessed for tracking staff loan transactions
+- CalculateTotalHoursWorked for computing staff working hours
+- CalculateLoanProcessed for tracking staff loan transactions
 
 User-Defined Exceptions
-ISBN uniqueness validation
-Publication year, price, and popularity validation
-Invalid genre and copy count validation
-Duplicate book ID / ISBN handling
+- ISBN uniqueness validation
+- Publication year, price, and popularity validation
+- Invalid genre and copy count validation
+- Duplicate book ID / ISBN handling
 
 Sequence
-book_id_seq for generating unique book IDs
-copy_id_seq for generating unique copy IDs
+- book_id_seq for generating unique book IDs
+- copy_id_seq for generating unique copy IDs
 
 ## How to Use
 
